@@ -88,6 +88,9 @@ add select tests from node's tests for net
 
 PR's welcome!
 
+### Fork Change
+_Remove TcpSocket's dependency on CocoaAsyncSocket and publish on NPMJS for people who are restricted to only pulling packages from NPMJS_
+_as current NPMJS react-native-tcp (4.0.0) is not updated with the latest changes on GitHub_
 
 
 _originally forked from [react-native-udp](https://github.com/tradle/react-native-udp)_
