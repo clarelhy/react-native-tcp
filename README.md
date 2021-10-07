@@ -90,9 +90,9 @@ PR's welcome!
 
 ### Note
 
-_Problem: My issue was that I am restricted to pulling packages from NPMJS and GitHub was not allowed. However, the version of react-native-tcp on NPMJS was an old version (4.0.0), and I was hitting into the dependency issue caused by TcpSocket's dependency on CocoaAsyncSocket, and this issue was only fixed by a PR on GitHub._ 
+**Problem**: My issue was that I am restricted to pulling packages from NPMJS and GitHub was not allowed. However, the version of react-native-tcp on NPMJS was an old version (4.0.0), and I was hitting into the dependency issue caused by TcpSocket's dependency on CocoaAsyncSocket, and this issue was only fixed by a PR on GitHub.
 
-_Solution: Remove TcpSocket's dependency on CocoaAsyncSocket from TcpSocket.podspec, publish on NPMJS as react-native-tcp-no-cocoa for people who are restricted to only pulling packages from NPMJS._
+**Solution**: Remove TcpSocket's dependency on CocoaAsyncSocket from TcpSocket.podspec, publish on NPMJS as react-native-tcp-no-cocoa for people who are restricted to only pulling packages from NPMJS.
 
 
 ### Credits
