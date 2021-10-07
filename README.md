@@ -89,11 +89,15 @@ add select tests from node's tests for net
 PR's welcome!
 
 ### Note
+
 _Problem: My issue was that I am restricted to pulling packages from NPMJS and GitHub was not allowed. However, the version of react-native-tcp on NPMJS was an old version (4.0.0), and I was hitting into the dependency issue caused by TcpSocket's dependency on CocoaAsyncSocket, and this issue was only fixed by a PR on GitHub._ 
 
 _Solution: Remove TcpSocket's dependency on CocoaAsyncSocket from TcpSocket.podspec, publish on NPMJS as react-native-tcp-no-cocoa for people who are restricted to only pulling packages from NPMJS._
 
 
-_all credits to original authors_
+### Credits
+All credits to original authors
+
 _forked from [react-native-tcp](https://github.com/aprock/react-native-tcp)_
+
 _originally forked from [react-native-udp](https://github.com/tradle/react-native-udp)_
